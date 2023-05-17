@@ -1,0 +1,22 @@
+:root {
+	--Light-Cyan: hsl(193, 38%, 86%);
+	--Neon-Green: hsl(150, 100%, 66%);
+	--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+	--Grayish-Blue: hsl(217, 19%, 38%);
+	--Dark-Blue: hsl(218, 23%, 16%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Manrope', sans-serif;
+}
+
+body {
+	box-sizing: border-box;
+	background-color: #141519;
+}
