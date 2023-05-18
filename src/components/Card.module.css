@@ -37,7 +37,7 @@ button {
 	cursor: pointer;
 }
 button:hover {
-	box-shadow: 1px 1px 30px 9px var(--Neon-Green-light);
+	box-shadow: 0 0 30px 9px var(--Neon-Green-light);
 }
 
 @media (min-width: 480px) {
