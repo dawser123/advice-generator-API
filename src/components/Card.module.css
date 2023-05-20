@@ -21,6 +21,9 @@ p {
 	font-weight: 800;
 	color: var(--Light-Cyan);
 }
+.error{
+	font-size: 1.6rem;
+}
 img {
 	width: 100%;
 }
