@@ -9,15 +9,15 @@ const Card = () => {
 	const [error, setError] = useState(false)
 	const fetchAdviceHandler = async () => {
 		try {
+			setIsLoading(true)
 			const response = await fetch('https://api.adviceslip.com/advice')
 			if (!response.ok) {
 				throw new Error('Failed to fetch advice.')
 			}
 			const { slip } = await response.json()
+			setIsLoading(false)
 			setAdvice({ id: slip.id, text: slip.advice })
-			setIsLoading(false)
 		} catch (error) {
-			setIsLoading(false)
 			setError(true)
 		}
 	}
